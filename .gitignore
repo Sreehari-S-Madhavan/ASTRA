@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local databases and SQLite sidecars
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+
+# Generated medical reports and logs
+/astra/reports/*.pdf
+*.log
+
+# Local secrets and certificates
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Build and OS artifacts
+build/
+dist/
+.DS_Store
+Thumbs.db
